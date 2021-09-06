@@ -1,0 +1,109 @@
+/* Reseting CSS */
+
+.leftside{
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 34px;
+    top: 10px;
+}
+
+.leftside img{
+    width: 65px;
+    margin: 2px 6px;
+    padding: 4px;
+}
+
+.leftside div{
+    font-size: 19px;
+    text-align: center;
+    line-height: 14px;
+}
+
+.centre{
+    display: block;
+    width: 45%;
+    margin: 22px auto;
+    /* border: 2px solid green; */
+}
+
+.rightside{
+    display: inline-block;
+    /* border: 2px solid yellow;  */
+    position: absolute;
+    right: 34px;
+    top: 34px;
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: rgb(185, 184, 184);
+}
+
+.btn{
+    font-size: 20px;
+    margin: 0px 5px;
+    padding: 4px 13px;
+    color: white;
+    background-color: black;
+    border: 2px solid grey;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Baloo Bhai 2', cursive;  /*button has its default font set. Thus we had to add it here in .btn */
+}
+.btn:hover{
+    background-color: rgb(59, 58, 58);
+}
+
+.container{
+    /* border: 2px solid white; */
+    padding: 55px;
+    margin: 106px 80px;
+    width: 33%;
+    border-radius: 30px;
+}
+
+.container h1{
+    text-align: center;
+}
+.container h1:hover{
+    color: grey;
+}
+
+.container button{
+    display: block;
+    margin: 10px auto;
+    padding: 1px;
+    width: 61%;
+    font-size: 22px;
+}
+
+.form-group input{
+    cursor:pointer;
+    display: block;
+    width: 61%;
+    padding: 1px;
+    margin: 6px auto;
+    text-align: center;
+    border-radius: 8px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 23px;
+}
+.form-group input:hover{
+    background-color: rgb(209, 204, 204);
+}
